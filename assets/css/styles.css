@@ -6,6 +6,18 @@
     --quaternary-color: #ECDFCC;
 }
 
+html, body {
+    height: 100%;
+}
+
 .custom-header {
     background-color: var(--primary-color);
+}
+
+.navbar {
+    background-color: var(--secondary-color);
+}
+
+footer a {
+    display: inline-block;
 }
