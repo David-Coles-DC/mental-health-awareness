@@ -43,12 +43,15 @@ section.full-height {
     color: var(--quaternary-color);
 }
 
-#recognising-issues {
+#recognising-issues,
+#stories,
+#contact {
     background-color: var(--tertiary-color);
 }
 
 #resources {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), var(--secondary-color) url('../images/resources-bg.png') no-repeat center / cover;
+    backdrop-filter: blur(25px);
     background-attachment: fixed;
 }
 
@@ -61,13 +64,47 @@ section.full-height {
     height: 400px;
 }
 
+#quotes .carousel,
+#quotes .carousel-inner,
+#quotes .carousel-item {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    position: relative;
+}
+
+#quotes {
+    background-color: var(--primary-color);
+}
+
+#quotes blockquote {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 75%;
+    transform: translate(-50%, -50%);
+}
+
+#contact h2,
+#contact p {
+    color: var(--quaternary-color);
+}
+
+#contact .btn {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+#contact .btn:hover {
+    filter: brightness(50%);
+}
+
 footer a {
     display: inline-block;
 }
 
 @media screen and (min-width: 768px) {
     section.full-height {
-        padding: 25vh 0;
+        padding: 18vh 0;
     }
 }
 
