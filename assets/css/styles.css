@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&display=swap');
+
 /* https://colorhunt.co/palette/181c143c3d37697565ecdfcc */
 :root {
     --primary-color: #181C14;
@@ -6,8 +8,14 @@
     --quaternary-color: #ECDFCC;
 }
 
-html, body {
-    height: 100%;
+html,
+body {
+    min-height: 100%;
+    font-family: "DM Sans", serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "DM Serif Display", serif;
 }
 
 .custom-header {
@@ -16,6 +24,21 @@ html, body {
 
 .navbar {
     background-color: var(--secondary-color);
+}
+
+section.full-height {
+    min-height: calc(100vh - 118px);
+    position: relative;
+}
+
+section#about {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), var(--secondary-color) url('../images/about-bg.png') no-repeat center / cover;
+    background-attachment: fixed;
+    color: var(--quaternary-color);
+}
+
+section#recognising-issues {
+    background-color: var(--tertiary-color);
 }
 
 footer a {
