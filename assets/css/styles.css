@@ -12,9 +12,15 @@ html,
 body {
     min-height: 100%;
     font-family: "DM Sans", serif;
+    scroll-padding-top: 66px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: "DM Serif Display", serif;
 }
 
@@ -27,20 +33,52 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 section.full-height {
-    min-height: calc(100vh - 118px);
+    padding: 40px 0;
     position: relative;
 }
 
-section#about {
+#about {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), var(--secondary-color) url('../images/about-bg.png') no-repeat center / cover;
     background-attachment: fixed;
     color: var(--quaternary-color);
 }
 
-section#recognising-issues {
+#recognising-issues {
     background-color: var(--tertiary-color);
+}
+
+#resources {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), var(--secondary-color) url('../images/resources-bg.png') no-repeat center / cover;
+    background-attachment: fixed;
+}
+
+#resources .card {
+    max-width: 500px;
+    margin: auto;
+}
+
+#resources .card-img-top {
+    height: 400px;
 }
 
 footer a {
     display: inline-block;
+}
+
+@media screen and (min-width: 768px) {
+    section.full-height {
+        padding: 25vh 0;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #resources .card-img-top {
+        height: 250px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #resources .card-img-top {
+        height: 400px;
+    }
 }
