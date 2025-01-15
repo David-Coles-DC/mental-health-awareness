@@ -5,6 +5,7 @@
 ## Contents
 - [Project Brief](#project-brief)
 - [Wireframing](#wireframing)
+- [Styling](#styling)
 - [Testing](#testing)
 - [Deployment](#deployment)
 - [Tools](#tools)
@@ -42,6 +43,10 @@ I used the desktop application Balsamiq to create my wireframes for the project.
 
 [Back to contents](#contents)
 
+## Styling
+
+I used a website called [ColorHunt](https://colorhunt.co/palette/181c143c3d37697565ecdfcc) to find some suitable colours for the website, the colours I went with in the end were supposed to be calming and pleasant on the eyes.
+
 ## Testing
 
 I used the W3C Markup validation service to check that my HTML was valid, there were no issues raised.
@@ -67,7 +72,7 @@ Throught the build of the project I was using GitHub to store my repository and 
 ## Tools
 I initially used a docker template from Code Institute to set up my project. I then used VS Code to edit the project and used HTML and CSS to create a static website.
 
-I added in the [Bootstrap](https://getbootstrap.com/) framework for styling, [Google Fonts](https://fonts.google.com/) and also [FontAwesome](https://fontawesome.com/) for the social icons.
+I added in the [Bootstrap](https://getbootstrap.com/) framework for styling, [Google Fonts](https://fonts.google.com/) and also [FontAwesome](https://fontawesome.com/) for the social icons. I also used [ColorHunt](https://colorhunt.co/) to find my colour palette.
 
 I used Github Copilot to come up with the initial HTML code and then edited it to my own design. I also used Dall-E to create some AI imagary for the site.
 
