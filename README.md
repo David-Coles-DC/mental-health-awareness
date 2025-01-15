@@ -46,6 +46,11 @@ I used the desktop application Balsamiq to create my wireframes for the project.
 ## Styling
 
 I used a website called [ColorHunt](https://colorhunt.co/palette/181c143c3d37697565ecdfcc) to find some suitable colours for the website, the colours I went with in the end were supposed to be calming and pleasant on the eyes.
+![Screenshot 2025-01-15 105059](https://github.com/user-attachments/assets/a9d33a3d-0e48-4d92-b088-79c3ad84d35f)
+![Screenshot 2025-01-15 105113](https://github.com/user-attachments/assets/2ebd2cba-5037-4b8c-9acb-ba54cb8d655c)
+
+I also used Google Fonts to choose the fonts for the website, and in the end I went with 'DM Sans' for the main text and 'DM Serif Display' for the headings. This gave it a professional and pleasant look.
+![Screenshot 2025-01-15 105556](https://github.com/user-attachments/assets/c1991076-f3e5-4612-bfc3-47b1261ccecb)
 
 ## Testing
 
@@ -75,5 +80,7 @@ I initially used a docker template from Code Institute to set up my project. I t
 I added in the [Bootstrap](https://getbootstrap.com/) framework for styling, [Google Fonts](https://fonts.google.com/) and also [FontAwesome](https://fontawesome.com/) for the social icons. I also used [ColorHunt](https://colorhunt.co/) to find my colour palette.
 
 I used Github Copilot to come up with the initial HTML code and then edited it to my own design. I also used Dall-E to create some AI imagary for the site.
+
+To create my favicons I used [RealFaviconGenerator](https://realfavicongenerator.net/).
 
 [Back to contents](#contents)
