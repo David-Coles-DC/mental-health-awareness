@@ -7,7 +7,7 @@
 - [Wireframing](#wireframing)
 - [Testing](#testing)
 - [Deployment](#deployment)
-- [Credits](#credits)
+- [Tools](#tools)
 
 ## Project Brief
 **External User’s Goal**: The user seeks accessible, beginner-friendly information on mental health, including how to recognize common issues and manage stress, presented in a supportive and organised layout.
@@ -64,7 +64,11 @@ Throught the build of the project I was using GitHub to store my repository and 
 
 [Back to contents](#contents)
 
-## Credits
-We would like to thank all the contributors and supporters of this project. Your efforts help make a difference in raising mental health awareness.
+## Tools
+I initially used a docker template from Code Institute to set up my project. I then used VS Code to edit the project and used HTML and CSS to create a static website.
+
+I added in the [Bootstrap](https://getbootstrap.com/) framework for styling, [Google Fonts](https://fonts.google.com/) and also [FontAwesome](https://fontawesome.com/) for the social icons.
+
+I used Github Copilot to come up with the initial HTML code and then edited it to my own design. I also used Dall-E to create some AI imagary for the site.
 
 [Back to contents](#contents)
