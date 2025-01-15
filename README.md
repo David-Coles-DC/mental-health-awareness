@@ -4,7 +4,6 @@
 
 ## Contents
 - [Project Brief](#project-brief)
-- [User Stories](#user-stories)
 - [Wireframing](#wireframing)
 - [Testing](#testing)
 - [Deployment](#deployment)
@@ -23,13 +22,23 @@ Resource Links: A grid layout for external links to mental health resources styl
 
 [Back to contents](#contents)
 
-## User Stories
-
-[Back to contents](#contents)
+![Screenshot 2025-01-15 100033](https://github.com/user-attachments/assets/1d0fc29d-a21a-4178-9a0d-c422f80e516f)
 
 ## Wireframing
 
 I used the desktop application Balsamiq to create my wireframes for the project.
+
+### Mobile Layout
+![Screenshot 2025-01-15 101522](https://github.com/user-attachments/assets/84505a60-8637-4d91-a871-ac2f6e93812c)
+![Screenshot 2025-01-15 102420](https://github.com/user-attachments/assets/33ec1179-ea07-4bc2-883a-ae0ae07ea0ff)
+
+### Desktop Layout
+![Screenshot 2025-01-15 102932](https://github.com/user-attachments/assets/7260a21f-4b72-40ae-b14a-869bc3497951)
+![Screenshot 2025-01-15 103211](https://github.com/user-attachments/assets/393c7c88-9c18-4a66-9643-8ea6286bf13d)
+![Screenshot 2025-01-15 103413](https://github.com/user-attachments/assets/c0c0509a-3ef0-47de-a5da-ed960282ee2b)
+![Screenshot 2025-01-15 103522](https://github.com/user-attachments/assets/5c4734bb-32f1-4396-8106-5b2dad7fdaac)
+![Screenshot 2025-01-15 103718](https://github.com/user-attachments/assets/5aac20dd-8bc9-43e6-8621-442f241c67be)
+![Screenshot 2025-01-15 103846](https://github.com/user-attachments/assets/efee8531-af49-4e7d-aa81-777d89fa2585)
 
 [Back to contents](#contents)
 
